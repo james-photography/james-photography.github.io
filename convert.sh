@@ -9,7 +9,7 @@ for i in *.tif; do
     -interlace JPEG \
     -colorspace RGB \
     -adaptive-resize 320 \
-    "out/$i-320w.jpg"
+    "out/$(basename $i .tif)-320w.jpg"
 
     convert \
     "$i" \
@@ -19,7 +19,7 @@ for i in *.tif; do
     -interlace JPEG \
     -colorspace RGB \
     -adaptive-resize 480 \
-    "out/$i-480w.jpg"
+    "out/$(basename $i .tif)-480w.jpg"
 
     convert \
     "$i" \
@@ -29,7 +29,7 @@ for i in *.tif; do
     -interlace JPEG \
     -colorspace RGB \
     -adaptive-resize 640 \
-    "out/$i-640w.jpg"
+    "out/$(basename $i .tif)-640w.jpg"
 
     convert \
     "$i" \
@@ -39,7 +39,7 @@ for i in *.tif; do
     -interlace JPEG \
     -colorspace RGB \
     -adaptive-resize 768 \
-    "out/$i-768w.jpg"
+    "out/$(basename $i .tif)-768w.jpg"
 
     convert \
     "$i" \
@@ -49,7 +49,7 @@ for i in *.tif; do
     -interlace JPEG \
     -colorspace RGB \
     -adaptive-resize 960 \
-    "out/$i-960w.jpg"
+    "out/$(basename $i .tif)-960w.jpg"
 
     convert \
     "$i" \
@@ -59,7 +59,7 @@ for i in *.tif; do
     -interlace JPEG \
     -colorspace RGB \
     -adaptive-resize 1024 \
-    "out/$i-1024w.jpg"
+    "out/$(basename $i .tif)-1024w.jpg"
 
     convert \
     "$i" \
@@ -69,7 +69,7 @@ for i in *.tif; do
     -interlace JPEG \
     -colorspace RGB \
     -adaptive-resize 1280 \
-    "out/$i-1280w.jpg"
+    "out/$(basename $i .tif)-1280w.jpg"
 
     convert \
     "$i" \
@@ -79,6 +79,6 @@ for i in *.tif; do
     -interlace JPEG \
     -colorspace RGB \
     -adaptive-resize 1440 \
-    "out/$i-1440w.jpg"
+    "out/$(basename $i .tif)-1440w.jpg"
 
 done
