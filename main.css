@@ -34,7 +34,7 @@ body {
 
     /* makes the grid one column instead of two */
     .gallery {
-        font-size: 100%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         display: grid;
