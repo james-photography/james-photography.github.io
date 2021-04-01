@@ -3,6 +3,12 @@ body {
     color: white;
 }
 
+.main_title {
+    text-align:center;
+    font-size: 3vw;
+    font-family: "Press Start 2P";
+}
+
 .gallery {
     width: 80%;
     margin-left: auto;
@@ -20,8 +26,15 @@ body {
 
 /* Responsive layout - makes the grid one column instead of two */
 @media screen and (max-width: 600px) {
+    .main_title {
+        text-align:center;
+        font-size: 4vw;
+        font-family: "Press Start 2P";
+    }
+
+    /* makes the grid one column instead of two */
     .gallery {
-        width: 100%;
+        font-size: 100%;
         margin-left: auto;
         margin-right: auto;
         display: grid;
