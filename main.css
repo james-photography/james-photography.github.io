@@ -1,11 +1,19 @@
 body {
     background-color: black;
     color: white;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 .main_title {
     text-align:center;
     font-size: 3vw;
+    font-family: "Press Start 2P";
+}
+
+.shoot_title {
+    text-align:center;
+    font-size: 2vw;
     font-family: "Press Start 2P";
 }
 
@@ -29,6 +37,12 @@ body {
     .main_title {
         text-align:center;
         font-size: 4vw;
+        font-family: "Press Start 2P";
+    }
+
+    .shoot_title {
+        text-align:center;
+        font-size: 3vw;
         font-family: "Press Start 2P";
     }
 
