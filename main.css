@@ -114,6 +114,20 @@ body {
     text-decoration: none;
 }
 
+.gallery-cell {
+    width: 100vw; /* full width */
+    height: 100vh;
+    /* center images in cells with flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gallery-cell img {
+    display: block;
+    max-height: 100%;
+  }
+
 /* Responsive layout - makes the grid one column instead of two */
 @media screen and (max-width: 600px) {
     .main_title {
